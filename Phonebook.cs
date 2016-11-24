@@ -43,23 +43,23 @@ namespace SamplePhoneBook
 					switch (choice)
 					{
 						case 1:
-						readInfo(fileName);
-						break;
+							readInfo(fileName);
+		                                        break;
 						case 2:
-						addInfo(fileName);
-						break;
+						        addInfo(fileName);
+						        break;
 						case 3:
-						addInfoRandom(fileName);
-						break;
+						        addInfoRandom(fileName);
+						        break;
 						case 4:
-					        deleteInfo(fileName);
-						break;
+					                deleteInfo(fileName);
+						        break;
 						case 5:
-						check = false;
-						break;
+						        check = false;
+						        break;
 						default:
-						Console.WriteLine("\n Please choose one of the options");
-						break;
+						        Console.WriteLine("\n Please choose one of the options");
+						        break;
 					}
 				}
 				catch(Exception e)

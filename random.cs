@@ -16,7 +16,7 @@ namespace SamplePhoneBook
 		long generateRandom()
 		{
 			Random rnd = new Random();
-			long rand_number = rnd.Next(300000000, 999999999);
+			long rand_number = rnd.Next(300000000, 9999999999);
 			return rand_number;
 		}
 

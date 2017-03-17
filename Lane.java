@@ -1,6 +1,6 @@
 
 	/**                                                             Lane
-	 * Represents a lane of vehicles using an array.
+	 * Represents a lane of vehicles using an Array.
 	 */
 	public class Lane {
 

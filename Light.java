@@ -1,5 +1,6 @@
 /**                                                              Light
  * Represents a traffic signal
+
  */
 public class Light {
     private int period;
